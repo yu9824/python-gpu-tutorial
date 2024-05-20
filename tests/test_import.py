@@ -2,4 +2,4 @@
 
 
 def test_import():
-    import python_gpu_tutorial.utils
+    import python_gui_tutorial.utils

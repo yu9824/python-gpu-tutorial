@@ -5,7 +5,7 @@
 ## ソースの作成
 
 ```bash
-sphinx-apidoc -f -o ./docs_src ./src/python-gpu-tutorial --module-first    # 'python-gpu-tutorial'部分は適宜変更
+sphinx-apidoc -f -o ./docs_src ./src/python-gui-tutorial --module-first    # 'python-gui-tutorial'部分は適宜変更
 ```
 
 ## コミット

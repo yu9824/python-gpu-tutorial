@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-from python_gpu_tutorial import __author__, __version__
+from python_gui_tutorial import __author__, __version__
 
-project = "python-gpu-tutorial"
+project = "python-gui-tutorial"
 copyright = "2024, yu9824"
 author = __author__
 release = __version__

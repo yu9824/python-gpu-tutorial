@@ -1,9 +1,9 @@
-.. python-gpu-tutorial documentation master file, created by
+.. python-gui-tutorial documentation master file, created by
    sphinx-quickstart on Mon May  6 11:54:28 2024.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to python-gpu-tutorial's documentation!
+Welcome to python-gui-tutorial's documentation!
 ====================================
 
 .. toctree::

@@ -4,11 +4,9 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "python-gpu-tutorial"
+name = "python-gui-tutorial"
 dynamic = ["version"]
-dependencies = [
-    # "numpy>=1.20"
-]
+dependencies = ["TkEasyGUI"]
 requires-python = ">= 3.7"
 authors = [{ name = "yu9824" }]
 maintainers = [{ name = "yu9824" }]
@@ -35,21 +33,21 @@ docs = ["sphinx", "sphinx_rtd_theme", "sphinx-markdown-tables", "recommonmark"]
 gui = ["PySimpleGUI"]
 
 [project.urls]
-Homepage = "https://github.com/yu9824/python-gpu-tutorial"
+Homepage = "https://github.com/yu9824/python-gui-tutorial"
 # Documentation = "https://readthedocs.org"
-PyPI = "https://pypi.org/project/python-gpu-tutorial/"
-Source = "https://github.com/yu9824/python-gpu-tutorial"
-Tracker = "https://github.com/yu9824/python-gpu-tutorial/issues"
-Changelog = "https://github.com/yu9824/python-gpu-tutorial/blob/main/CHANGELOG.md"
+PyPI = "https://pypi.org/project/python-gui-tutorial/"
+Source = "https://github.com/yu9824/python-gui-tutorial"
+Tracker = "https://github.com/yu9824/python-gui-tutorial/issues"
+Changelog = "https://github.com/yu9824/python-gui-tutorial/blob/main/CHANGELOG.md"
 
-# [project.scripts]
-# python-gpu-tutorial-cli = "python-gpu-tutorial:main_cli"
+[project.scripts]
+python-gui-tutorial-cli = "python_gui_tutorial._main:main"
 
-# [project.gui-scripts]
-# python-gpu-tutorial-gui = "python-gpu-tutorial:main_gui"
+[project.gui-scripts]
+python-gui-tutorial-gui = "python_gui_tutorial._main:main"
 
 [tool.setuptools.dynamic]
-version = { attr = "python_gpu_tutorial.__version__" }
+version = { attr = "python_gui_tutorial.__version__" }
 
 [tool.ruff]
 line-length = 79

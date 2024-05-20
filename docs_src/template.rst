@@ -1,7 +1,7 @@
-python_gpu_tutorial package
+python_gui_tutorial package
 ================
 
-.. automodule:: python_gpu_tutorial
+.. automodule:: python_gui_tutorial
    :members:
    :undoc-members:
    :show-inheritance:
@@ -12,4 +12,4 @@ Subpackages
 .. toctree::
    :maxdepth: 4
 
-   python_gpu_tutorial.utils
+   python_gui_tutorial.utils
