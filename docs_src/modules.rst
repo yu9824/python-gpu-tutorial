@@ -1,7 +1,7 @@
-template
+python_gpu_tutorial
 ========
 
 .. toctree::
    :maxdepth: 4
 
-   template
+   python_gpu_tutorial

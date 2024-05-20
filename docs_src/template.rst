@@ -1,7 +1,7 @@
-template package
+python_gpu_tutorial package
 ================
 
-.. automodule:: template
+.. automodule:: python_gpu_tutorial
    :members:
    :undoc-members:
    :show-inheritance:
@@ -12,4 +12,4 @@ Subpackages
 .. toctree::
    :maxdepth: 4
 
-   template.utils
+   python_gpu_tutorial.utils

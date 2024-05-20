@@ -1,7 +1,7 @@
-template.utils package
+python_gpu-tutorial.utils package
 ======================
 
-.. automodule:: template.utils
+.. automodule:: python_gpu_tutorial.utils
    :members:
    :undoc-members:
    :show-inheritance:
